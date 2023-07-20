@@ -10,6 +10,7 @@ slug: string
 }
 
 export interface Game {
+    [x: string]: any;
     id: number;
     name: string;
     background_image: string
