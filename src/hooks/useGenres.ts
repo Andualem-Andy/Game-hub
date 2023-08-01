@@ -3,6 +3,7 @@ import apiClient from "../services/api-client";
 import { CanceledError } from "axios";
 
 interface Genres {
+  image_background:string
   id: number;
   name: string;
 }
